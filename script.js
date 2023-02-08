@@ -1,7 +1,6 @@
 "use strict";
 
-// Hope this helps you to understand the code.
-// * when checking(".check") and the ('.guess') class change the (".message"), (".score"),('.highscore') classes and also when the condition of ('.number') = ('.guess') then the result will be correct and the background will change.
+
 // * create a click event method and create conditions with if/else statement.
 
 let number = Math.trunc(Math.random() * 20) + 1;
@@ -72,4 +71,11 @@ document.querySelector(".again").addEventListener("click", function () {
   document.querySelector(".guess").value = "";
 });
 
+
+
+// Hope this helps you to understand the code.
+// * when checking the (".check") and the ('.guess') class, change the (".message"), (".score"),('.highscore') classes and also when the condition of ('.number') = ('.guess') then the result will be correct and the background will change.
+
+
+//others things to add
 // can edit for a mid range value condition where the message can be: you are close for the win
